@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vin8: MyString
+  vinyear: MyString
+  code: MyString
+  year: MyString
+  make: MyString
+  model: MyString
+  body: MyString
+  subseries: MyString
+  sbody: MyString
+  drive: MyString
+  engine: MyString
+
+two:
+  vin8: MyString
+  vinyear: MyString
+  code: MyString
+  year: MyString
+  make: MyString
+  model: MyString
+  body: MyString
+  subseries: MyString
+  sbody: MyString
+  drive: MyString
+  engine: MyString

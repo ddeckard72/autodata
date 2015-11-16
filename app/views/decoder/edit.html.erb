@@ -1,0 +1,12 @@
+
+<div class="decoder-form">
+    <h3>Decoder</h3>
+    <%= form_for([@decoder]) do |f| %>
+        <div class="data-field">
+          <%= f.label "Year: " %>
+          <%= f.text_area :year %>
+        </div>
+
+        <%= f.submit "Add" %>
+    <% end %>
+</div>

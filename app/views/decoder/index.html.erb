@@ -1,0 +1,14 @@
+<h2>Decoder</h2>
+
+<ul class="decoder">
+    <% @decoder.each do |record| %>
+        <li class="record">
+            <%= record.year record.make record.model record.body %>
+        </li>
+    <% end %>
+
+    <div class="decoder-nav">
+        <%= paginate @decoder %>
+        <%= link_to "Add a new entry", new_decoder_path %>
+    </div>
+</ul>
