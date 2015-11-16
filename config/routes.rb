@@ -19,4 +19,6 @@ resources :image
 #              PATCH  /image/:id(.:format)        image#update
 #              PUT    /image/:id(.:format)        image#update
 #              DELETE /image/:id(.:format)        image#destroy
+
+#user routes
 end
