@@ -1,4 +1,8 @@
 class ListController < ApplicationController 
+	def getYears
+
+	end 
+
 	def getMakes
 
 	end
@@ -11,6 +15,10 @@ class ListController < ApplicationController
 
 	end
 
+	def getSubseries
+
+	end
+	
 	def getColors
 
 	end
