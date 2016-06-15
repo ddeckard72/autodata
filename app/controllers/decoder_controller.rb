@@ -21,4 +21,11 @@ class DecoderController < ApplicationController
 
 	end
 
+	def clone
+
+	end
+
+	def search
+
+	end
 end
