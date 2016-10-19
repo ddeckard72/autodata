@@ -1,4 +1,4 @@
-class ListController < ApplicationController 
+class ImageController < ApplicationController 
 	def add
 
 	end
@@ -10,5 +10,5 @@ class ListController < ApplicationController
 	def editInfo
 
 	end
-	
+
 end
